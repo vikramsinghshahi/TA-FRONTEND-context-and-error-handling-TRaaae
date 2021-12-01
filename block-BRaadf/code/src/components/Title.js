@@ -1,9 +1,9 @@
-function Title({ text, isDarkMode }) {
+function Title({ text, isDarkMode })
+{
   return (
     <h2
-      className={`heading ${
-        isDarkMode ? "sub-heading-dark" : "sub-heading-light"
-      }`}
+      className={`heading ${isDarkMode ? "sub-heading-dark" : "sub-heading-light"
+        }`}
     >
       {text}
     </h2>
