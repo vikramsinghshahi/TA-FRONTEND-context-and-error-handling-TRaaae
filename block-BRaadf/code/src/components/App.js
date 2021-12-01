@@ -43,7 +43,7 @@ class App extends React.Component
     {
       return { isDarkMode: !state.isDarkMode };
     });
-    console.log("hello state")
+    // console.log("hello state")
   };
   render()
   {
